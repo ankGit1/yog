@@ -1,0 +1,414 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/* font-family: 'Rajdhani', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.sec1 {
+  background-image: url("images/yoga1.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec1Top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  align-items: center;
+}
+
+.logo1{
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.logo img{
+  width: 2.5vw;
+  height: 2.5vw;
+  margin: 0 1vw;
+}
+
+.sec1Content {
+  display: inline;
+  padding: 0 1.5vw;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.sec1Content a {
+  text-decoration: none;
+  padding-left: 10px;
+  margin-left: 10px;
+  color: inherit;
+}
+
+.signup {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.sec1 p {
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 140px;
+  margin-top: 60px;
+  width: 400px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .............................................. */
+.sec2 {
+  display: flex;
+  padding-top: 50px;
+  height: 100%;
+}
+
+.sec2div1 {
+  width: 50%;
+  text-align: center;
+}
+
+.sec2div1 img {
+  width: 90%;
+  height: 90%;
+}
+
+.sec2div2 {
+  width: 50%;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.sec2heading {
+  margin-bottom: 60px;
+}
+
+.sec2div2 span {
+  margin-right: 20px;
+  color: yellow;
+}
+
+.sec2button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+/* ................................................................. */
+.sec3 {
+  display: flex;
+  height: 70%;
+  align-items: center;
+  background-image: url("images/yoga5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec3div1 {
+  text-align: left;
+  width: 50%;
+  padding-left: 80px;
+}
+
+.sec3div2 {
+  padding-top: 13vw;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  color: #fff;
+}
+
+.sec3heading {
+  margin-bottom: 50px;
+}
+
+.sec3div1 span {
+  margin-right: 10px;
+}
+
+.sec3div2 p {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.sec4 {
+  text-align: center;
+  background-color: #000;
+}
+
+.sec4 video {
+  height: 80%;
+  padding: 20px 0;
+}
+
+/* ............................................................... */
+.sec5 {
+  text-align: center;
+}
+
+.sec5heading {
+  margin: 50px 150px;
+}
+
+.sec5all {
+  display: flex;
+  margin: 50px;
+}
+
+.sec5img{
+  margin: 20px;
+}
+
+.div1sec5, .div2sec5, .div3sec5 {
+  width: 33.33%;
+  text-align: center;
+  padding: 0 50px;
+}
+
+/* ............................................................... */
+.sec6 {
+  display: flex;
+  padding: 40px;
+  height: 90%;
+  background-color: #FFCC1D;
+}
+
+.sec6div1 {
+  width: 40%;
+  margin: 50px 0;
+}
+
+.subsec6 {
+  text-align: left;
+  margin-left: 200px;
+}
+
+.subsec6 span {
+  margin-right: 10px;
+}
+
+.subsec6 input {
+  margin-bottom: 20px;
+}
+
+.sec6div2 {
+  width: 60%;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.sec6div2 img {
+  width: 60%;
+  height: 100%;
+}
+
+/* ............................................... */
+.sec7 {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  height: 30%;
+}
+
+/* ......................................... */
+.whoSec1 {
+  background-image: url("images/yoga10.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+}
+
+.whoSec2Top {
+  display: flex;
+}
+.whoSec2h1{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.whoContent1 {
+  width: 50%;
+  padding-left: 120px;
+  font-family: 'Rajdhani', sans-serif;
+}
+.whoContent1 p{
+  font-size:40px;
+  font-weight:700;
+  margin-bottom: 0;
+}
+.whoContent2 {
+  width: 50%;
+  text-align: center;
+}
+
+.whoContent2 img {
+  height: 400px;
+  width: auto;
+}
+
+.whoSec2{
+  text-align: center;
+  padding: 50px;
+  background-image: linear-gradient(to bottom right, #fff,#FDEBF7,#FFC0D3);
+}
+.whoSec2Top a button{
+  margin-top: 3vw;
+  background-color: #FF6363;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.whoSec2div1{
+  display: flex;
+  text-align: left;
+}
+.whoSec2div1 div{
+  padding: 2vw 4vw;
+  width: 33.33%;
+}
+
+.whoSec3{
+  background-image: url("images/yoga11.jpg");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whoSec3div1{
+  padding: 5vw 3vw 3vw 58vw;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.whoSec3div1 p{
+  font-size:40px;
+  font-weight:700;
+  margin-bottom: 0;
+}
+/* .................................................. */
+.aboutSec1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #FFCC1D;
+}
+.aboutSec2{
+  background-image: url("images/yoga9.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutSec2div1{
+  padding: 3vw 3vw 5vw 43vw;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+.aboutSec2div1 p{
+  text-indent: 40px;
+}
+.teamFlex{
+  display: flex;
+  margin: 0 50px;
+}
+.teamFlex div{
+  text-align: center;
+  padding: 30px 60px 0;
+  margin: 20px;
+}
+.teamFlex div img{
+  width: 40%;
+  height: 40%;
+  border-radius: 100%;
+  border: groove;
+}
+.teamFlex div:hover{
+  transform: scale(1.1,1.1);
+  border: groove;
+  transition-duration: 0.5s;
+  background-color: #FFCC1D;
+  color: #fff;
+}
+
+.aboutSec3{
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+}
+/* ............................................... */
+
+.plansSec1,.locSec1{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+.plansSec1 div{
+  padding: 20px 40px;
+  border: groove;
+}
+.plansSec1 span{
+  margin-right: 10px;
+}
+.plansSec1 div:hover{
+  background-color: #FFCC1D;
+}
+/* ............................................ */
+
+.locSec1 div{
+padding: 20px 40px;
+background-image: url("images/yoga12.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: #fff;
+}
+
+.locSec1 div p{
+  font-size: 18px;
+}
+.locSec1 div:hover{
+  transform: scale(1.1,1.1);
+  transition-duration: 0.5s;
+}
+/* ........................................... */
+.box{
+  position: absolute;
+  top: 120px;
+  left: 400px;
+  width: 30%;
+  border: solid;
+  background-color: #FE7E6D;
+}
+
+.sampleForm{
+  margin: 15px;
+}
+
+.label{
+  float: left;
+}
+
+.input{
+  float: right;
+  width: 175px;
+}
+
+.success{
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+}
